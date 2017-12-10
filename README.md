@@ -7,14 +7,21 @@ It’s because line terminator in hive is \n and if and \n or \r coming between 
 I tried multiple option like spark, hive serde and many more but I found good with perl. Today I a sharing my Perl script to remove all newline and special characters.
 
 Input:
+
 1407233497,1407233514,bar
+
 1407233498,1407233515,foo
+
 mingstats&fmt=n
+
 1407233499,1407233516,foobar
 
 Expected output:
+
 1407233497,1407233514,bar
+
 1407233498,1407233515,foomingstats&fmt=n
+
 1407233499,1407233516,foobar
 
 How to execute script ?
