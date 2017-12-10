@@ -21,7 +21,6 @@ How to execute script ?
 
 perl E:\Ashish\DataCleaner\NewlineCleaner.pl E:\Ashish\DataCleaner\Sample Data.csv > E:\Ashish\DataCleaner\OutPut.csv
 
-*****************
 How to install perl ?
 https://www.perl.org/get.html
 http://strawberryperl.com/releases.html
