@@ -1,7 +1,7 @@
 # Data-Cleaner
 # How do i remove a newline (CR, LF or \r, \n) in between data? 
 
-If you some csv file and having CRLF, LF in between data and you want to create some table (Hive table). You will face issue that some of column have null value.
+If you have some csv file and having CRLF, LF in between data and you want to create some table (Hive table). You will face issue that some of column have null value.
 
 It’s because line terminator in hive is \n and if and \n or \r coming between data it treating as line terminator before actual line terminator and rest for column is getting null value. 
 
