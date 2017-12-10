@@ -19,6 +19,7 @@ Expected output:
 
 How to execute script ?
 
+
 perl E:\Ashish\DataCleaner\NewlineCleaner.pl E:\Ashish\DataCleaner\Sample Data.csv > E:\Ashish\DataCleaner\OutPut.csv
 
 How to install perl ?
